@@ -9,7 +9,7 @@ export default function Home() {
       <section className="mb-16 text-center">
         <h1 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">Welcome to WorldScore Support</h1>
         <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
-          Decentralized Credit Score for the World.
+          Your Reputation on World.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button asChild size="lg">
