@@ -166,9 +166,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  WorldScore is a decentralized credit score platform built on decentralized principles. Our
-                  mission is to provide transparent, user-controlled, blockchain-based credit scoring that respects privacy and promotes
-                  financial inclusion.
+                  WorldScore gives you a reputation score ranging from 300 to 999 based on various factors that represent your trustworthiness as a unique human, as well as your activity in the Web3 ecosystem. The higher the scores you have, the higher the chance you have of getting less or zero-collateral loans, accessing DeFi protocols with better rates, exclusive community access, and making trusted peer-to-peer transactions.
                 </p>
               </CardContent>
             </Card>
