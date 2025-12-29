@@ -8,85 +8,92 @@ export default function FAQPage() {
 
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger>What is WorldScore?</AccordionTrigger>
+            <AccordionTrigger>What is WorldScore & why do I need it?</AccordionTrigger>
             <AccordionContent>
-              WorldScore is a decentralized blockchain-based credit score platform initially published as a Worldcoin mini-app. It
-              provides users with a transparent and privacy-focused way to establish and maintain their credit score
-              without relying on traditional centralized credit bureaus.
+              WorldScore gives you a reputation score ranging from 300 to 999 based on various factors that represent your trustworthiness as a unique human, as well as your activity in the Web3 ecosystem. 
+              The higher the scores you have, the higher the chance you have of getting less or zero-collateral loans, accessing DeFi protocols with better rates, exclusive community access, and making trusted peer-to-peer transactions.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-2">
-            <AccordionTrigger>How does a decentralized credit score work?</AccordionTrigger>
+            <AccordionTrigger>How does reputation score work?</AccordionTrigger>
             <AccordionContent>
-              Our decentralized credit score system uses blockchain to securely record financial transactions
-              and behaviors while keeping your personal data under your control. The system analyzes various factors
-              such as wallet balance, transaction history, DeFi and CeFi interactions, loan repayments, and other financial activity to generate a credit score that is
-              both transparent and tamper-proof.
+              WorldScore analyzes various factors
+              such as orb verification status, wallet balance, external wallet connection, transaction history, phone number verification, email verification, loan repayments, and social account verification to generate your reputation score
+              tied to your wallet address.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-3">
             <AccordionTrigger>Is my data secure on WorldScore?</AccordionTrigger>
             <AccordionContent>
-              Yes, security is our top priority. As a decentralized platform, your data is encrypted and stored across a
-              distributed network rather than in a central database. You maintain control over your personal information
-              and can choose what to share and with whom. We use advanced cryptographic techniques to ensure your data
-              remains secure and private.
+              Yes, security is our top priority. As a web3 platform, your data is encrypted and stored on our secure server and never shared with any third parties. You can always contact us and delete your data.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-4">
-            <AccordionTrigger>How do I get started with WorldScore?</AccordionTrigger>
+            <AccordionTrigger>Where can I use WorldScore?</AccordionTrigger>
             <AccordionContent>
-              To get started with WorldScore, simply open the app in your WorldApp and connect your wallet. That's it.
+              You can use your WorldScore to access services like loans, better rates at DeFi, and access an exclusive higher score community, and many more.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-5">
-            <AccordionTrigger>
-              Can I use my WorldScore credit score with traditional financial institutions?
-            </AccordionTrigger>
+            <AccordionTrigger>How do I get started with WorldScore?</AccordionTrigger>
             <AccordionContent>
-              We're actively working with various financial institutions to gain acceptance of WorldScore as a valid
-              credit assessment tool and linking WorldScore with other traditional credit scoring institutions to evaluate DeFi scores. 
+              To get started with WorldScore, simply open the app in your WorldApp, then log in with your wallet and complete the given tasks. That's it.
             </AccordionContent>
-          </AccordionItem>
+          </AccordionItem>          
 
           <AccordionItem value="item-6">
-            <AccordionTrigger>How is WorldScore different from traditional credit bureaus?</AccordionTrigger>
+            <AccordionTrigger>
+              Can I use my WorldScore in traditional institutions for identity verifications?
+            </AccordionTrigger>
             <AccordionContent>
-              Unlike all the traditional credit bureaus that control your data and often use opaque scoring methods, WorldScore
-              is decentralized and gives you ownership of your financial data. Our scoring algorithm is transparent, and you can see exactly
-              what factors influence your score. Additionally, we consider a broader range of financial behaviors and
-              don't penalize users for factors unrelated to creditworthiness.
+              We're actively working with various institutions to gain acceptance of WorldScore as a valid
+              identity and reputation assessment tool and linking WorldScore with other traditional platforms to evaluate reputation in a privacy preservasive way. 
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-7">
-            <AccordionTrigger>What if I find an error in my WorldScore credit report?</AccordionTrigger>
+            <AccordionTrigger>How is WorldScore different from traditional identity tools?</AccordionTrigger>
             <AccordionContent>
-              If you believe there's an error in your WorldScore credit report, directly contact us via our support email or fill the contact form.
-              Our team will investigate and resolve the issue promptly, typically within 4-7 business days.
+              Unlike all the traditional platforms that control your data and often use opaque scoring methods, WorldScore
+              is privacy-friendly, transparent, and gives you ownership of your complete data. Our scoring algorithm is transparent, and you can see exactly
+              what factors influence your score.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-8">
-            <AccordionTrigger>Is WorldScore available worldwide?</AccordionTrigger>
+            <AccordionTrigger>What if I find an error in my WorldScore report?</AccordionTrigger>
             <AccordionContent>
-              Yes, as a decentralized platform, WorldScore is designed to be accessible globally. However, being a new platform and the nature of WorldScore may limit the practical utility initially 
-              compared to traditional credit institutions. We're continuously expanding our partnerships worldwide to increase the acceptance of our credit scores.
+              If you believe there's an error in your WorldScore, directly contact us via our support email or fill out the contact form.
+              Our team will investigate and resolve the issue promptly, typically within 4-7 business days.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-9">
-            <AccordionTrigger>What's in Version 1.0.0?</AccordionTrigger>
+            <AccordionTrigger>Is WorldScore available worldwide?</AccordionTrigger>
+            <AccordionContent>
+              Yes, WorldScore is a Worldcoin mini-app published on the World App mini-apps store and available everywhere World App is available.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-10">
+            <AccordionTrigger>What's in Version 1.1.0?</AccordionTrigger>
+            <AccordionContent>
+              In version 1.1.0, WorldScore is fully rebranded as a complete suite of a reputation scoring platform that offers many services, including trustworthiness, credit scoring, uniqueness, etc., etc rather than a standalone credit scoring app.
+            </AccordionContent>
+          </AccordionItem> 
+          
+          <AccordionItem value="item-11">
+            <AccordionTrigger>What was in Version 1.0.0?</AccordionTrigger>
             <AccordionContent>
               Version 1.0.0 includes the core credit scoring system with wallet integration, a user-friendly dashboard
               to monitor your score, detailed transaction history visualization, and very limited features. Version 1.0.0 is semi-decentralized as we are building the core structures, as soon as we aare complete we will be transformed into a fully decentralized platform. This version establishes the foundation of our decentralized credit system while we continue
-              to expand features and partnerships in upcoming releases. We initially launched WorldScore on Worldcoin's ecosystem, later on we will expand to other DeFi ecosystem.
+              to expand features and partnerships in upcoming releases. We initially launched WorldScore on Worldcoin's ecosystem, and later on, we will expand to other DeFi ecosystem.
             </AccordionContent>
-          </AccordionItem>
+          </AccordionItem>         
         </Accordion>
       </div>
     </div>
