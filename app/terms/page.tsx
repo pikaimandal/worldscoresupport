@@ -106,7 +106,7 @@ export default function TermsOfServicePage() {
 
           <h2>Contact Us</h2>
           <p>If you have any questions about these Terms, please contact us at:</p>
-          <p>Email: support@worldscore.org</p>
+          <p>Email: support@worldscore.world</p>
         </div>
       </div>
     </div>
