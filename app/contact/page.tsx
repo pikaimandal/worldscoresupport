@@ -154,7 +154,7 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">support@worldscore.org</p>
+                    <p className="text-muted-foreground">support@worldscore.world</p>
                   </div>
                 </div>
               </CardContent>
