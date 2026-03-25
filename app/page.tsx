@@ -49,7 +49,7 @@ export default function Home() {
             <CardContent>
               <p className="mb-4">Send your questions or concerns to our support team email address.</p>
               <div className="flex items-center justify-center rounded-md bg-muted p-3 font-medium">
-                support@worldscore.org
+                support@worldscore.world
               </div>
             </CardContent>
           </Card>
