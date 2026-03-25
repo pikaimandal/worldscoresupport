@@ -101,7 +101,7 @@ export default function PrivacyPolicyPage() {
 
           <h2>Contact Us</h2>
           <p>If you have any questions about this privacy policy or our data practices, please contact us at:</p>
-          <p>Email: support@worldscore.org</p>
+          <p>Email: support@worldscore.world</p>
         </div>
       </div>
     </div>
